@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação</title>
+    <style>
+    body {
+        background-color: rgb(119, 178, 255);
+        text-align: center;
+    
+    }
+    div { 
+        animation-name: pulse;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1.2);
+        }
+    }
+        h1 {
+        color: blue;
+        font-size: 80px;
+    }
+    h2 {
+        color: rgb(55, 55, 235);
+        font-size: 50px;
+        
+    }
+        </style>
+</head>
+<body>
+    <h1>
+        Descodificadas
+    </h1>
+    <h2>
+        Eu amo tecnologia!!!
+    </h2>
+
+    <div>
+        <img src="coracaoazul.webp" alt="">
+    </div>
+    
+</body>
+</html>
